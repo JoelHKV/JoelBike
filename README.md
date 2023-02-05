@@ -17,17 +17,21 @@ The app heavily utilizes Google Maps, allowing users to:
  </p>
  
 
+
 **Figure 2: Browse stations and view the most popular destinations/origins as clickable markers:**
 
 <p align="left">
  <img src="https://storage.googleapis.com/joelvuolevi/bikeapp/bikeapp_feature2.png" width="750" height="450">
  </p>
 
+
+
 **Figure 3: Browse stations and view departing/arriving traffic as heatmaps indicating the direction bikes are heading to/arriving from:**
 
 <p align="left">
  <img src="https://storage.googleapis.com/joelvuolevi/bikeapp/bikeapp_feature3.png" width="750" height="450">
  </p>
+ 
 The heatmap data can provide insight into bike traffic patterns and help the bike operator allocate bikes more efficiently.
 
 
