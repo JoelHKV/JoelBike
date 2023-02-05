@@ -10,21 +10,24 @@ The app heavily utilizes Google Maps, allowing users to:
 
 
 
- **Figure 1: Browse trips and view them as arrows on the map**
+ **Figure 1: Browse trips and view them as arrows on the map:**
  
- <p align="center">
- <img src="https://storage.googleapis.com/joelvuolevi/bikeapp/bikeapp_feature1.png" width="500" height="300">
+ <p align="left">
+ <img src="https://storage.googleapis.com/joelvuolevi/bikeapp/bikeapp_feature1.png" width="750" height="450">
  </p>
  
-| ![Alt Text](https://storage.googleapis.com/joelvuolevi/bikeapp/bikeapp_feature1.png) | A caption describing the figure. |
 
-| Figure 2 | Browse stations and view the most popular destinations/origins as clickable markers |
-| ![Alt Text](https://storage.googleapis.com/joelvuolevi/bikeapp/bikeapp_feature2.png) | A caption describing the figure. |
+**Figure 2: Browse stations and view the most popular destinations/origins as clickable markers:**
 
-| Figure 3 | Browse stations and view departing/arriving traffic as heatmaps indicating the direction bikes are heading to/arriving from: |
+<p align="left">
+ <img src="https://storage.googleapis.com/joelvuolevi/bikeapp/bikeapp_feature2.png" width="750" height="450">
+ </p>
 
-| ![Alt Text](https://storage.googleapis.com/joelvuolevi/bikeapp/bikeapp_feature3.png) | A caption describing the figure. |
+**Figure 3: Browse stations and view departing/arriving traffic as heatmaps indicating the direction bikes are heading to/arriving from:**
 
+<p align="left">
+ <img src="https://storage.googleapis.com/joelvuolevi/bikeapp/bikeapp_feature3.png" width="750" height="450">
+ </p>
 The heatmap data can provide insight into bike traffic patterns and help the bike operator allocate bikes more efficiently.
 
 
