@@ -8,17 +8,15 @@
 
 The app heavily utilizes Google Maps, allowing users to:
 
-Browse trips and view them as arrows on the map:
-| Figure | Description |
-| ------ | ----------- |
+
+| Figure 1 | Browse trips and view them as arrows on the map |
 | ![Alt Text](https://storage.googleapis.com/joelvuolevi/bikeapp/bikeapp_feature1.png) | A caption describing the figure. |
-Browse stations and view the most popular destinations/origins as clickable markers:
-| Figure | Description |
-| ------ | ----------- |
+
+| Figure 2 | Browse stations and view the most popular destinations/origins as clickable markers |
 | ![Alt Text](https://storage.googleapis.com/joelvuolevi/bikeapp/bikeapp_feature2.png) | A caption describing the figure. |
-Browse stations and view departing/arriving traffic as heatmaps indicating the direction bikes are heading to/arriving from:
-| Figure | Description |
-| ------ | ----------- |
+
+| Figure 3 | Browse stations and view departing/arriving traffic as heatmaps indicating the direction bikes are heading to/arriving from: |
+
 | ![Alt Text](https://storage.googleapis.com/joelvuolevi/bikeapp/bikeapp_feature3.png) | A caption describing the figure. |
 
 The heatmap data can provide insight into bike traffic patterns and help the bike operator allocate bikes more efficiently.
