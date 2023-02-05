@@ -9,7 +9,10 @@
 The app heavily utilizes Google Maps, allowing users to:
 
 
-| Figure 1 | Browse trips and view them as arrows on the map |
+
+ **Figure 1: Browse trips and view them as arrows on the map**
+ <img src="https://storage.googleapis.com/joelvuolevi/bikeapp/bikeapp_feature1.png" width="500" height="300">
+ 
 | ![Alt Text](https://storage.googleapis.com/joelvuolevi/bikeapp/bikeapp_feature1.png) | A caption describing the figure. |
 
 | Figure 2 | Browse stations and view the most popular destinations/origins as clickable markers |
