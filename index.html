@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Add Map</title>
+
+</head>
+<body>
+
+    <div class="container" id="container">
+        <div id="backgroundgray" style="padding: 0px;"></div>
+
+        <div id="map-container">
+            <div class="image" id="map"></div>
+        </div>
+
+        <div id="infoboard"></div>
+        <div id="infoboard3"></div>
+        <div id="downloadboard"></div>
+        <button id="closemap">Close</button>
+        <button id="stationdetailsFrom">Top<BR>Departure</button>
+        <button id="stationdetailsTo">Top<BR>Return</button>
+
+        <button id="stationdetailsFrom2">Heatmap<BR>Departure</button>
+        <button id="stationdetailsTo2">Heatmap<BR>Return</button>
+
+        <div id="innercalendar">inner</div>
+
+        <button id="stationvstrip">Stations</button>
+        <button id="stationvstrip2">Trips</button>
+        <button id="language">FI</button>
+
+        <select id="departure_dropdown"></select>
+        <select id="return_dropdown"></select>
+
+        <div id="menutitle"><div class="col" style="width: 25%; text-align: left;">Date Time</div><div class="col" style="width: 24%; text-align: left;">Departure</div><div class="col" style="width: 23%; text-align: left;">Return</div><div class="col" style="width: 10%; text-align: left;">km</div><div class="col" style="width: 10%; text-align: left;">min</div></div>
+        <div id="menutitleb"><div class="col" style="width: 50%; text-align: left;">Station</div><div class="col" style="width: 14%; text-align: left;">Search</div></div>
+        <input type="text" id="filterStations">
+
+        <div id="menu">
+            <div class="menu-item">
+                <div class="col col-1"></div>
+                <div class="col col-2"></div>
+                <div class="col col-3"></div>
+                <div class="col col-4"></div>
+                <div class="col col-5"></div>
+            </div>
+        </div>
+
+        <button id="goUp">Top</button>
+        <button id="scrollUp">Scroll<BR>Up</button>
+        <button id="currentdate">1.5.2021</button>
+        <button id="scrollDown">Scroll<BR>Down</button>
+        <button id="goDown">Bottom</button>
+
+
+        <canvas class="overlayImage" id="circle" width="400" height="400"></canvas>
+
+    </div>
+
+
+    <script src="secret.js"></script>
+    <script type="module" src="/main_bike_app.js"></script>
+
+</body>
+</html>
+
+

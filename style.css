@@ -1,0 +1,154 @@
+
+.container {
+    max-width: 1200px;
+    height: 1200px;
+    margin: auto;
+    position: relative;
+    border: none
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#stationvstrip, #stationvstrip2 {
+    text-align: center;
+    position: absolute;
+    font-size: 1.65rem;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #eeeeee;
+    border-radius: 30px;
+}
+
+#stationvstrip2 {
+    background-color: #ffffff;
+}
+
+
+#menu {
+    overflow: scroll;
+    border: 1px solid gray;
+}
+
+#menu, #menutitle, #menutitleb {
+    position: absolute;
+    background-color: white;
+    border: 3px solid gray;
+    font-size: 1.3rem;
+    border-radius: 10px;
+}
+
+#menutitle, #menutitleb {
+    font-weight: bold;
+    display: flex;
+    font-size: 1.4rem;
+    overflow: hidden;
+}
+
+
+
+#map-container {
+    position: absolute;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 3px solid gray;
+}
+
+#innercalendar {
+    position: absolute;
+    overflow: scroll;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+
+#filterStations {
+    position: absolute;
+    text-align: left;
+    padding: 0.15rem 0rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: none;
+    background-color: #aaaaaa;
+}
+
+#departure_dropdown, #return_dropdown {
+    position: absolute;
+    text-align: center;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border: 3px solid gray;
+    border-radius: 10px;
+}
+
+
+#downloadboard {
+    position: absolute;
+    font-size: 2rem;
+    background-color: #fefefe;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#infoboard, #infoboard3 {
+    position: absolute;
+    text-align: left;
+    font-size: 1.4rem;
+    padding: 0rem 0rem;
+    font-weight: bold;
+    opacity: 1;
+    background-color: #eeeeee;
+}
+
+
+button {
+    transition: all 0.3s ease;
+}
+
+    button:active {
+        transform: scale(0.95);
+    }
+
+
+
+.menu-item {
+    display: flex;
+}
+
+.col {
+    width: 20%;
+    padding: 4px;
+    text-align: left;
+    cursor: pointer;
+}
+
+#backgroundgray {
+    position: absolute;
+    background-color: #eeeeee;
+    border-radius: 30px;
+}
+
+#goUp, #goDown, #scrollUp, #scrollDown, #currentdate, #closemap, #stationdetailsTo2, #stationdetailsFrom2, #stationdetailsTo, #stationdetailsFrom, #language {
+    position: absolute;
+    width: 80%;
+    cursor: pointer;
+    font-size: 1.0rem;
+    line-height: 1.3;
+    border: 3px solid gray;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+#closemap, #stationdetailsTo, #stationdetailsFrom, #stationdetailsTo2, #stationdetailsFrom2 {
+    transition: all 0.03s ease;
+}
+
+
+#currentdate {
+    opacity: 0.4;
+    cursor: default;
+}
