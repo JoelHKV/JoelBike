@@ -3,9 +3,27 @@
 
 [The app is here](https://storage.googleapis.com/joelvuolevi/bikeapp/index.html)
 
+## Setup
 
+To run the app you will need:
+- index.html
+- main_bike_app.js
+- style.css
 
+You will also need to download and import ```stations_HelsinkiEspoo.json```
+or have it delivered dynamically by a cloud function:
+```https://jsonhandler-c2cjxe2frq-lz.a.run.app/?action=stations```
 
+Finally, you will need an API key for Google Maps. To run the app locally you can simply create secret.js file as follows (see index.html how to use it):
+
+```
+const API_KEY = “API_KEY” 
+const script = document.createElement('script');
+script.src = API_KEY;
+script.async = true;
+script.defer = true;
+document.head.appendChild(script);
+```
 
 ## Data
 
