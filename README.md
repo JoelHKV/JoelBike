@@ -196,3 +196,11 @@ def readcsv(request):
 
 ```
 
+## Room for improvement
+- Add more flexibility in browsing trips and stations
+- Improve the effectiveness of the calendar pop-up for all types of filtering
+- Introduce more filters and sorting options
+- Address issues with very small layout sizes
+- Enhance the language selection window.
+
+
