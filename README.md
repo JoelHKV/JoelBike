@@ -1,8 +1,11 @@
 # JoelBike
 
+[The app is deployed to Google Cloud](https://storage.googleapis.com/joelvuolevi/bikeapp/index.html)
 
-[The app is here](https://storage.googleapis.com/joelvuolevi/bikeapp/index.html)
 
+## General Information
+
+The purpose of the app is to explore journeys made using city bikes in the Helsinki Capital region. Given the large database of millions of trips, a well-designed data strategy was crucial. This project was initially created as an assignment for Solita's Dev Academy, but the intention is to continue developing it for the fun of it 
 
 ## Features
 
@@ -85,6 +88,7 @@ The trip data is filtered to meet the following criteria:
 - The trip must last at least 10 seconds
 - The station ID must be a positive integer
 - The return time must be later than the departure time
+- The trip is not already included (multiple items deleted) 
 
 The data is split into three different categories for ease of use:
 - Per day (92 files)
