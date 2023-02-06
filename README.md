@@ -59,6 +59,10 @@ script.defer = true;
 document.head.appendChild(script);
 ```
 
+## Technologies Used
+The frontend is written in JavaScript, HTML, and CSS and the backend is powered by Google Cloud Functions.
+
+
 ## Data
 
 The station data is converted to JSON format with the station ID as the key. Here is the Python script:
